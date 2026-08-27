@@ -1,0 +1,55 @@
+<svg width="260" height="220" viewBox="0 0 260 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8DC7"/>
+      <stop offset="100%" stop-color="#C2116B"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="heartClip">
+      <path d="M130,58 C108,18 40,22 40,76 C40,128 96,150 130,182 C164,150 220,128 220,76 C220,22 152,18 130,58 Z"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes beat {
+      0%   { transform: scale(1); }
+      14%  { transform: scale(1.12); }
+      28%  { transform: scale(1); }
+      40%  { transform: scale(1.06); }
+      52%  { transform: scale(1); }
+      100% { transform: scale(1); }
+    }
+    @keyframes floaty {
+      0%   { transform: translateY(6px); opacity: 0; }
+      15%  { opacity: 1; }
+      80%  { opacity: 1; }
+      100% { transform: translateY(-24px); opacity: 0; }
+    }
+    @keyframes pulseline { 0% { stroke-dashoffset: 380; } 100% { stroke-dashoffset: 0; } }
+
+    .heart-group { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+    .sym1 { animation: floaty 3.2s ease-in-out infinite 0s; }
+    .sym2 { animation: floaty 3.6s ease-in-out infinite 0.9s; }
+    .sym3 { animation: floaty 3s ease-in-out infinite 1.6s; }
+    .sym4 { animation: floaty 3.4s ease-in-out infinite 2.3s; }
+    .pulse { stroke-dasharray: 380; animation: pulseline 2.2s linear infinite; }
+  </style>
+
+  <text class="sym1" x="16" y="58" font-family="Fira Code, monospace" font-size="15" fill="#FF6FB5">{ }</text>
+  <text class="sym2" x="206" y="50" font-family="Fira Code, monospace" font-size="15" fill="#FF6FB5">&lt;/&gt;</text>
+  <text class="sym3" x="12" y="150" font-family="Fira Code, monospace" font-size="14" fill="#FF6FB5">01</text>
+  <text class="sym4" x="218" y="140" font-family="Fira Code, monospace" font-size="17" fill="#FF6FB5">;</text>
+
+  <g class="heart-group" filter="url(#glow)">
+    <path d="M130,58 C108,18 40,22 40,76 C40,128 96,150 130,182 C164,150 220,128 220,76 C220,22 152,18 130,58 Z" fill="url(#heartGrad)"/>
+    <g clip-path="url(#heartClip)">
+      <polyline class="pulse" points="10,112 66,112 80,78 96,146 110,58 124,112 250,112" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
