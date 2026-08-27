@@ -107,6 +107,14 @@ Site pessoal reunindo projetos, estudos e trajetória — em construção. Assim
 ![Seguidores](https://img.shields.io/github/followers/yasmim-amorim?style=for-the-badge&color=FF2E8C&labelColor=2b0a17&label=Seguidores)
 [![Ver repositórios](https://img.shields.io/badge/Ver%20todos%20os%20reposit%C3%B3rios-FF2E8C?style=for-the-badge&labelColor=2b0a17&logo=github&logoColor=white)](https://github.com/yasmim-amorim?tab=repositories)
 
+**Linguagens mais usadas**
+
+![Python](https://img.shields.io/badge/Python-40%25-FF2E8C?style=for-the-badge&logo=python&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-24%25-FF6FB5?style=for-the-badge&logo=html5&logoColor=white)
+![C](https://img.shields.io/badge/C-23%25-FF2E8C?style=for-the-badge&logo=c&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-10%25-FF6FB5?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-3%25-FF2E8C?style=for-the-badge&logo=javascript&logoColor=white)
+
 </div>
 
 <br/>
@@ -118,6 +126,15 @@ Site pessoal reunindo projetos, estudos e trajetória — em construção. Assim
 
 ![Perfil visto](https://komarev.com/ghpvc/?username=yasmim-amorim&color=FF2E8C&style=for-the-badge&label=Visitas)
 
+<picture data-importer="pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yasmim-amorim/yasmim-amorim/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yasmim-amorim/yasmim-amorim/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/yasmim-amorim/yasmim-amorim/pacman-output/pacman-contribution-graph.svg?game=pacman">
+</picture>
+
+###
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C2116B,100:FF6FB5&height=100&section=footer"/>
 
 </div>
+
