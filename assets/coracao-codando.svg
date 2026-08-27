@@ -1,27 +1,27 @@
-<svg width="260" height="220" viewBox="0 0 260 220" xmlns="http://www.w3.org/2000/svg">
+<svg width="380" height="320" viewBox="0 0 380 320" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FF8DC7"/>
       <stop offset="100%" stop-color="#C2116B"/>
     </linearGradient>
     <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feGaussianBlur stdDeviation="9" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <clipPath id="heartClip">
-      <path d="M130,58 C108,18 40,22 40,76 C40,128 96,150 130,182 C164,150 220,128 220,76 C220,22 152,18 130,58 Z"/>
+      <path d="M201,99 C169,41 70,47 70,125 C70,201 151,233 201,279 C250,233 331,201 331,125 C331,47 232,41 201,99 Z"/>
     </clipPath>
   </defs>
 
   <style>
     @keyframes beat {
       0%   { transform: scale(1); }
-      14%  { transform: scale(1.12); }
+      14%  { transform: scale(1.1); }
       28%  { transform: scale(1); }
-      40%  { transform: scale(1.06); }
+      40%  { transform: scale(1.05); }
       52%  { transform: scale(1); }
       100% { transform: scale(1); }
     }
@@ -29,27 +29,33 @@
       0%   { transform: translateY(6px); opacity: 0; }
       15%  { opacity: 1; }
       80%  { opacity: 1; }
-      100% { transform: translateY(-24px); opacity: 0; }
+      100% { transform: translateY(-26px); opacity: 0; }
     }
-    @keyframes pulseline { 0% { stroke-dashoffset: 380; } 100% { stroke-dashoffset: 0; } }
+    @keyframes pulseline { 0% { stroke-dashoffset: 640; } 100% { stroke-dashoffset: 0; } }
 
     .heart-group { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
-    .sym1 { animation: floaty 3.2s ease-in-out infinite 0s; }
-    .sym2 { animation: floaty 3.6s ease-in-out infinite 0.9s; }
-    .sym3 { animation: floaty 3s ease-in-out infinite 1.6s; }
-    .sym4 { animation: floaty 3.4s ease-in-out infinite 2.3s; }
-    .pulse { stroke-dasharray: 380; animation: pulseline 2.2s linear infinite; }
+    .sym1 { animation: floaty 3.4s ease-in-out infinite 0s; }
+    .sym2 { animation: floaty 3.8s ease-in-out infinite 0.5s; }
+    .sym3 { animation: floaty 3.2s ease-in-out infinite 1s; }
+    .sym4 { animation: floaty 3.6s ease-in-out infinite 1.5s; }
+    .sym5 { animation: floaty 4s ease-in-out infinite 2s; }
+    .sym6 { animation: floaty 3.3s ease-in-out infinite 2.5s; }
+    .sym7 { animation: floaty 3.7s ease-in-out infinite 3s; }
+    .pulse { stroke-dasharray: 640; animation: pulseline 2.6s linear infinite; }
   </style>
 
-  <text class="sym1" x="16" y="58" font-family="Fira Code, monospace" font-size="15" fill="#FF6FB5">{ }</text>
-  <text class="sym2" x="206" y="50" font-family="Fira Code, monospace" font-size="15" fill="#FF6FB5">&lt;/&gt;</text>
-  <text class="sym3" x="12" y="150" font-family="Fira Code, monospace" font-size="14" fill="#FF6FB5">01</text>
-  <text class="sym4" x="218" y="140" font-family="Fira Code, monospace" font-size="17" fill="#FF6FB5">;</text>
+  <text class="sym1" x="14" y="95" font-family="Fira Code, monospace" font-size="17" fill="#FF6FB5">{ }</text>
+  <text class="sym2" x="300" y="72" font-family="Fira Code, monospace" font-size="17" fill="#FF6FB5">&lt;/&gt;</text>
+  <text class="sym3" x="10" y="225" font-family="Fira Code, monospace" font-size="16" fill="#FF6FB5">01</text>
+  <text class="sym4" x="340" y="210" font-family="Fira Code, monospace" font-size="19" fill="#FF6FB5">;</text>
+  <text class="sym5" x="128" y="24" font-family="Fira Code, monospace" font-size="14" fill="#FF6FB5">SELECT</text>
+  <text class="sym6" x="255" y="300" font-family="Fira Code, monospace" font-size="16" fill="#FF6FB5">==</text>
+  <text class="sym7" x="45" y="300" font-family="Fira Code, monospace" font-size="14" fill="#FF6FB5">SQL</text>
 
   <g class="heart-group" filter="url(#glow)">
-    <path d="M130,58 C108,18 40,22 40,76 C40,128 96,150 130,182 C164,150 220,128 220,76 C220,22 152,18 130,58 Z" fill="url(#heartGrad)"/>
+    <path d="M201,99 C169,41 70,47 70,125 C70,201 151,233 201,279 C250,233 331,201 331,125 C331,47 232,41 201,99 Z" fill="url(#heartGrad)"/>
     <g clip-path="url(#heartClip)">
-      <polyline class="pulse" points="10,112 66,112 80,78 96,146 110,58 124,112 250,112" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline class="pulse" points="27,177 108,177 128,128 151,227 172,99 192,177 375,177" fill="none" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
 </svg>
