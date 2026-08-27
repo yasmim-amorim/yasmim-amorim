@@ -11,7 +11,7 @@
 <br/>
 
 <div align="center">
-<img src="assets/gatinho-codando.svg" width="220" alt="Gatinho programando"/>
+<img src="assets/coracao-codando.svg" width="130" alt="Coração programando"/>
 </div>
 
 <br/>
@@ -96,6 +96,7 @@ Pipeline de dados completo (API pública AniList → PostgreSQL → SQL analíti
 
 </div>
 
+Site pessoal reunindo projetos, estudos e trajetória — em construção. Assim que estiver no ar, o link entra aqui.
 
 <br/>
 
