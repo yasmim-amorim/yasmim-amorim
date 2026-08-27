@@ -11,7 +11,7 @@
 <br/>
 
 <div align="center">
-<img src="assets/coracao-codando.svg" width="220" alt="Coração programando"/>
+<img src="assets/coracao-codando.svg" width="220" height="189" alt="Coração programando"/>
 </div>
 
 <br/>
