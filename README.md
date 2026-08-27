@@ -96,7 +96,6 @@ Pipeline de dados completo (API pública AniList → PostgreSQL → SQL analíti
 
 </div>
 
-Site pessoal reunindo projetos, estudos e trajetória — em construção. Assim que estiver no ar, o link entra aqui.
 
 <br/>
 
