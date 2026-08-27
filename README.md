@@ -107,6 +107,18 @@ Pipeline de dados completo (API pública AniList → PostgreSQL → SQL analíti
 
 <div align="center">
 
+<picture data-importer="pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yasmim-amorim/yasmim-amorim/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yasmim-amorim/yasmim-amorim/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/yasmim-amorim/yasmim-amorim/pacman-output/pacman-contribution-graph.svg?game=pacman">
+</picture>
+
+</div>
+
+<br/>
+
+<div align="center">
+  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-FF2E8C?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yasmim-guerra-amorim/)
 [![Gmail](https://img.shields.io/badge/Gmail-FF2E8C?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yasmimamorim2906@gmail.com)
 
