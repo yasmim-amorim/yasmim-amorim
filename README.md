@@ -11,16 +11,15 @@
 <br/>
 
 <div align="center">
-<img src="assets/coracao-codando.svg" width="220" height="189" alt="Coração programando"/>
 </div>
 
 <br/>
 
 ## Sobre mim
 
-Graduanda em **Engenharia da Computação** (Centro Universitário Adventista de São Paulo, 2024–2028), atualmente estagiária de **Análise de Sistemas** na **PRODAM**, onde trabalho com testes funcionais, documentação de regras de negócio e validação de dados via SQL.
+Graduanda em **Engenharia da Computação**, atualmente estagiária de **Análise de Sistemas** na **PRODAM**, onde trabalho com testes funcionais, documentação de regras de negócio e validação de dados via SQL.
 
-Meu foco é **Análise de Dados**: gosto de pegar dado bruto, entender a pergunta de negócio por trás dele e construir o caminho completo até um dashboard que alguém realmente usa para decidir algo — coleta, banco relacional, SQL analítico, tratamento em Python e visualização em Power BI.
+Meu foco é **Análise de Dados**: gosto de pegar dado bruto, entender a pergunta de negócio por trás dele e construir o caminho completo até um dashboard que alguém realmente usa para decidir algo, coleta, banco relacional, SQL analítico, tratamento em Python e visualização em Power BI.
 
 <div align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=16&duration=2500&pause=700&color=FF6FB5&center=true&vCenter=true&width=520&lines=An%C3%A1lise+de+Dados;Banco+de+Dados+%26+SQL;Power+BI+%2F+DAX;Python+%2F+Pandas;Qualidade+de+Software" alt="Typing SVG" />
@@ -70,10 +69,6 @@ Meu foco é **Análise de Dados**: gosto de pegar dado bruto, entender a pergunt
 
 ### [📊 Projeto Anime Analytics](https://github.com/yasmim-amorim/projeto-anime-analytics)
 
-![Stars](https://img.shields.io/github/stars/yasmim-amorim/projeto-anime-analytics?style=for-the-badge&color=FF2E8C&labelColor=2b0a17&label=Stars)
-![Último commit](https://img.shields.io/github/last-commit/yasmim-amorim/projeto-anime-analytics?style=for-the-badge&color=FF6FB5&labelColor=2b0a17&label=%C3%9Altimo%20commit)
-![Linguagem principal](https://img.shields.io/github/languages/top/yasmim-amorim/projeto-anime-analytics?style=for-the-badge&color=FF2E8C&labelColor=2b0a17&label=Linguagem)
-
 </div>
 
 Pipeline de dados completo (API pública AniList → PostgreSQL → SQL analítico → Python/pandas → modelagem dimensional → Power BI) para investigar como nota, popularidade e engajamento se comportam entre gêneros e estúdios de anime. 4.378 animes, dashboard com 4 páginas, insights documentados.
@@ -96,24 +91,15 @@ Pipeline de dados completo (API pública AniList → PostgreSQL → SQL analíti
 
 </div>
 
-Site pessoal reunindo projetos, estudos e trajetória — em construção. Assim que estiver no ar, o link entra aqui.
-
 <br/>
 
 ## GitHub Stats
 
 <div align="center">
 
-![Seguidores](https://img.shields.io/github/followers/yasmim-amorim?style=for-the-badge&color=FF2E8C&labelColor=2b0a17&label=Seguidores)
-[![Ver repositórios](https://img.shields.io/badge/Ver%20todos%20os%20reposit%C3%B3rios-FF2E8C?style=for-the-badge&labelColor=2b0a17&logo=github&logoColor=white)](https://github.com/yasmim-amorim?tab=repositories)
+<br/>
 
-**Linguagens mais usadas**
-
-![Python](https://img.shields.io/badge/Python-40%25-FF2E8C?style=for-the-badge&logo=python&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-24%25-FF6FB5?style=for-the-badge&logo=html5&logoColor=white)
-![C](https://img.shields.io/badge/C-23%25-FF2E8C?style=for-the-badge&logo=c&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-10%25-FF6FB5?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-3%25-FF2E8C?style=for-the-badge&logo=javascript&logoColor=white)
+<img src="assets/linguagens-rosca.svg" width="460" alt="Linguagens mais usadas"/>
 
 </div>
 
@@ -124,9 +110,6 @@ Site pessoal reunindo projetos, estudos e trajetória — em construção. Assim
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-FF2E8C?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yasmim-guerra-amorim/)
 [![Gmail](https://img.shields.io/badge/Gmail-FF2E8C?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yasmimamorim2906@gmail.com)
 
-![Perfil visto](https://komarev.com/ghpvc/?username=yasmim-amorim&color=FF2E8C&style=for-the-badge&label=Visitas)
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C2116B,100:FF6FB5&height=100&section=footer"/>
 
 </div>
-
