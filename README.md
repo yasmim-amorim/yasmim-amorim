@@ -126,14 +126,6 @@ Site pessoal reunindo projetos, estudos e trajetória — em construção. Assim
 
 ![Perfil visto](https://komarev.com/ghpvc/?username=yasmim-amorim&color=FF2E8C&style=for-the-badge&label=Visitas)
 
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yasmim-amorim/yasmim-amorim/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yasmim-amorim/yasmim-amorim/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/yasmim-amorim/yasmim-amorim/pacman-output/pacman-contribution-graph.svg?game=pacman">
-</picture>
-
-###
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C2116B,100:FF6FB5&height=100&section=footer"/>
 
 </div>
